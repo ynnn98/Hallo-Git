@@ -1,0 +1,11 @@
+config UART_RX
+    int
+    prompt "set the B2."
+    default 7
+    depends on ENABLE_VOICE
+
+config UART_TX
+    int
+    prompt "set the B3."
+    default 8
+    depends on ENABLE_VOICE
